@@ -11,7 +11,6 @@ public class OperatorPrecedence {
         boolean thirdBool = 1 == 1;
         boolean fourthBool = 4 <= 101;
         int varSix = 17;
-
         System.out.println(firstBool && (secondBool || thirdBool) && (fourthBool || (varSix = 5) < 0));
         System.out.println(varSix-3*(3+first));
     }
